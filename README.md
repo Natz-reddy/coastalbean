@@ -46,7 +46,6 @@ Commits made reurlary
       |--- Events - specials, functions, live bands
       |--- Contact Us - contact form, location, social media 
     
-
 # References 
 https://www.w3schools.com/html/
 https://www.bing.com/ck/a?!&&p=f6673b97870e18d06d0f906ac5a2c2d25623a665ca4353ebe9ae5a094e853e74JmltdHM9MTc1NjE2NjQwMA&ptn=3&ver=2&hsh=4&fclid=24e1a738-c6cf-66b3-194a-b2b4c7066755&u=a1aHR0cHM6Ly93d3cucXVpY2tzcHJvdXQuY29tL2NyZWF0aW5nLXdlYnNpdGUtc2l0ZW1hcC8&ntb=1
