@@ -53,4 +53,4 @@ https://www.wix.com/blog/how-to-design-a-website?utm_source=google&utm_medium=cp
 https://mailchimp.com/resources/web-design/?gclsrc=aw.ds&gad_source=1&gad_campaignid=22764712998&gbraid=0AAAABAjJLlZxIDT5dGMzM-AO6gH1xtGtg&gclid=CjwKCAjwkvbEBhApEiwAKUz6--I_RSoV7n8ggLz6if--qXnFKQW9AL_Ok7tsNr0rHVTpXH-KXygaghoCwFUQAvD_BwE
 https://www.newperspectivestudio.co.za/wp/what-is-the-cost-of-creating-a-website-in-south-africa/
 https://seeresponse.com/blog/top-reasons-business-needs-website/
-https://www.forbes.com/councils/theyec/2020/02/03/why-every-business-needs-a-website/
+https://www.forbes.com/councils/theyec/2020/02/03/why-every-business-needs-a-website/ 
