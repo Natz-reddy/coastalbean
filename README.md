@@ -1,7 +1,7 @@
 # coastalbean
 
 # Student Information
-Nathaniel Reddy 
+Nathaniel Reddy
 ST10488460
 WED5020
 
