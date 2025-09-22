@@ -27,10 +27,10 @@ nav {
     background-color: rgb(255, 255, 255);
     padding: 8px 20px;  
     display: flex;               
-    text-align: right;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 15px;
 }
-
 
 nav .brand {
     color: rgb(54, 13, 2);
@@ -39,6 +39,10 @@ nav .brand {
     margin: 0;                     
 }
 
+nav .nav-links {
+    display: flex;
+    align-items: center;
+}
 
 nav a {
     color: rgb(2, 2, 2);
@@ -50,9 +54,9 @@ nav a {
     border-radius: 9px;
     transition: 0.3s ease;
 }
+
 nav a:hover {
     border: 2px solid rgba(71, 0, 0, 0.219); 
     background-color: rgba(71, 0, 0, 0.692); 
 }
-
 
