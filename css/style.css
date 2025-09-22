@@ -9,3 +9,8 @@ h1{
 .sub-heading{ 
     font-size: 30px;
 }
+nav {
+    background-color: rgb(167, 69, 42);
+    padding: 10px;
+    text-align: center;
+}
