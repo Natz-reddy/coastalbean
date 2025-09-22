@@ -9,25 +9,32 @@ h1{
 .sub-heading{ 
     font-size: 30px;
 }
+
 nav {
-    background-color: rgba(180, 49, 12, 0.425);
-    padding: 15px;
-    text-align: right;
-    border-radius: 5px ;
+    background-color: rgb(54, 13, 2);
+    padding: 6px 20px;   /* adjust height */
+    display: flex;      
+    align-items: center;  
+    justify-content: space-between; 
+}
+nav .brand {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
 nav a {
-    color: white;
+    color: rgb(2, 2, 2);
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
-    padding: 8px 12px;   
-    border: 2px solid transparent;
+    padding: 4px 6px;   
+    border: 1px solid transparent;
     border-radius: 9px;
     transition: 0.3s ease;
 }
 nav a:hover {
-    border: 2px solid rgb(71, 0, 0); 
-    background-color: rgb(71, 0, 0); 
+    border: 2px solid rgba(71, 0, 0, 0.219); 
+    background-color: rgba(71, 0, 0, 0.692); 
 }
 
 
