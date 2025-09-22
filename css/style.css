@@ -60,3 +60,11 @@ nav a:hover {
     background-color: rgba(71, 0, 0, 0.692); 
 }
 
+.section{
+   background-color: #fff0e0;
+    padding: 20px 30px;
+    margin: 5px 0 20px ;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
