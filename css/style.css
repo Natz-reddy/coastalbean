@@ -1,30 +1,18 @@
-body{
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: bisque;
+    background: linear-gradient(to bottom right, #87CEEB, #FFDAB9);
 }
 
-h1{
+h1 {
     color: rgb(54, 13, 2);
 }
-.sub-heading{ 
+
+.sub-heading { 
     font-size: 30px;
 }
-
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: bisque;
-}
-
-h1{
-    color: rgb(54, 13, 2);
-}
-.sub-heading{ 
-    font-size: 30px;
-}
-
 
 nav {
-    background-color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #40E0D0, #FFD700);
     padding: 8px 20px;  
     display: flex;               
     justify-content: space-between;
@@ -45,7 +33,7 @@ nav .nav-links {
 }
 
 nav a {
-    color: rgb(2, 2, 2);
+    color: #fff;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -56,15 +44,16 @@ nav a {
 }
 
 nav a:hover {
-    border: 2px solid rgba(71, 0, 0, 0.219); 
-    background-color: rgba(71, 0, 0, 0.692); 
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(0, 77, 77, 0.6);
 }
 
-.section{
-   background-color: #fff0e0;
-    padding: 20px 30px;
-    margin: 5px 0 20px ;
-    width: 500px;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+.section {
+   background-color: rgba(255, 255, 255, 0.6);
+   padding: 20px 30px;
+   margin: 5px 0 20px;
+   width: 500px;
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
+
