@@ -1,6 +1,30 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: linear-gradient(to bottom right, #87CEEB, #FFDAB9);
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+  text-align: center ;
 }
 
 h1 {
@@ -11,13 +35,15 @@ h1 {
     font-size: 30px;
 }
 
+
 nav {
-    background: linear-gradient(to right, #40E0D0, #FFD700);
+    background: linear-gradient(to right, #e4eeed, #faf5d7);
     padding: 8px 20px;  
     display: flex;               
     justify-content: space-between;
     align-items: center;
-    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+ 
 }
 
 nav .brand {
@@ -33,7 +59,7 @@ nav .nav-links {
 }
 
 nav a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
@@ -45,7 +71,7 @@ nav a {
 
 nav a:hover {
     border: 2px solid rgba(255, 255, 255, 0.6);
-    background-color: rgba(0, 77, 77, 0.6);
+    background-color: rgba(29, 121, 121, 0.26);
 }
 
 .section {
