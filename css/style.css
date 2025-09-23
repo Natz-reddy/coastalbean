@@ -13,6 +13,7 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  opacity: 5 ;
 }
 
 .hero-text {
@@ -37,7 +38,7 @@ h1 {
 
 
 nav {
-    background: linear-gradient(to right, #e4eeed, #faf5d7);
+    background: linear-gradient(to right, #ffffff, #ffffff);
     padding: 8px 20px;  
     display: flex;               
     justify-content: space-between;
@@ -82,4 +83,18 @@ nav a:hover {
    border-radius: 12px;
    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
+
+.ourstory{
+  background-color: rgba(255, 255, 255, 0.6);
+   padding: 20px 30px;
+   margin: 5px 0 20px;
+   width: 500px;
+   border-radius: 12px;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+
+
+
 
