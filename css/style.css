@@ -77,35 +77,54 @@ nav a:hover {
 }
 
 .section {
+   display: flex;              
+   gap: 20px;                  
    background-color: rgb(235, 235, 235);
    padding: 20px 30px;
-   margin: 0px 0 20px;
-   width: 1333;
-   text-align: center;
-   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
-
-.section2{
-   background-color: rgb(255, 252, 252);
-   padding: 20px 30px;
-   margin: 0px 0 20px;
-   width: 1333;
-   text-align: center;
+   margin: 20px auto;
+   max-width: 1200px;         
    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
    border-radius: 10px;
-
 }
 
-.section3{
-     background-color: rgb(255, 252, 252);
-   padding: 20px 30px;
-   margin: 0px 0 20px;
-   width: 1333;
-   text-align: center;
-   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+.section2, .section3 {
+   flex: 1;                    
+   background-color: #fff;
+   padding: 20px;
    border-radius: 10px;
-
+   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+   text-align: left;
+   font-size: 18px;
+   line-height: 1.6;
 }
+
+/* Specials block */
+.specials {
+   background-color: #fff8e6;
+   padding: 20px 30px;
+   margin: 20px auto;
+   max-width: 1200px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.specials h2 {
+   margin-bottom: 15px;
+   font-size: 24px;
+}
+
+.specials ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+.specials li {
+   margin: 8px 0;
+   font-size: 18px;
+}
+
 
 .ourstory{
   background-color: rgba(255, 255, 255, 0.6);
