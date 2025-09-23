@@ -262,7 +262,8 @@ background-color: #6b4f4f;
 
 .mission-image img {
   max-width: 100%;
-  height: auto;
+    max-height: 100%;
+object-fit: cover;
   border-radius: 8px;
 }
 
@@ -288,7 +289,8 @@ background-color: #6b4f4f;
 
 .vision-image img {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
+  object-fit: cover;
   border-radius: 8px;
 }
 
