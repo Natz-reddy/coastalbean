@@ -297,3 +297,27 @@ object-fit: cover;
 .vision-text {
   flex: 1;
 }
+
+.special-section {
+  display: flex;
+  gap: 20px; 
+  padding: 40px; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+  box-shadow: 0 5px 8px rgba(85, 83, 83, 0.644);
+}
+
+.special-text {
+  flex: 1; 
+}
+
+.special-image {
+  flex: 1; 
+  
+}
+
+.special-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; 
+}
