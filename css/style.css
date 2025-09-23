@@ -159,8 +159,8 @@ nav a:hover {
 
 .button-container {
   display: flex;
-  justify-content: center; /* centers them horizontally */
-  gap: 20px; /* space between buttons */
+  justify-content: center;
+  gap: 20px; 
   margin-top: 20px;
 }
 
