@@ -126,7 +126,7 @@ nav a:hover {
 }
 
 .specials li {
-  background-color: #e7cbcb;
+  background-color: #ffffff;
   padding: 15px 20px;
   border-radius: 8px;
   max-width: 260px;
@@ -146,15 +146,49 @@ nav a:hover {
   color: #555;
   display: block;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .item-price {
   font-size: 16px;
   font-weight: bold;
-  color: #333;
+  color: #168d7d;
   display: block;
 }
 
+
+.button-container {
+  display: flex;
+  justify-content: center; /* centers them horizontally */
+  gap: 20px; /* space between buttons */
+  margin-top: 20px;
+}
+
+.button1,
+.button2 {
+  background-color: #6b4f4f;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button1:hover,
+.button2:hover {
+  background-color: #8a6565;
+  transform: translateY(-3px);
+}
+
+.button1:active,
+.button2:active {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
 .ourstory{
   background-color: rgba(255, 255, 255, 0.6);
    padding: 20px 30px;
