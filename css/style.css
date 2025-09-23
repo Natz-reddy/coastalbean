@@ -98,49 +98,62 @@ nav a:hover {
    line-height: 1.6;
 }
 
-/* Specials block */
+
+
 .specials {
-   background-color: #fff8e6;
-   padding: 20px 30px;
-   margin: 20px auto;
-   max-width: 1200px;
-   text-align: center;
-   border-radius: 10px;
-   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  background-color: #fff8e6;
+  padding: 20px 30px;
+  margin: 20px auto;
+  max-width: 1200px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .specials h2 {
-   margin-bottom: 15px;
-   font-size: 24px;
-  
+  margin-bottom: 20px;
+  font-size: 26px;
 }
 
 .specials ul {
-   list-style: none;
-   margin: 0;
-    display: flex;             
-   gap: 20px;                 
-   justify-content: center;    
-   flex-wrap: wrap;        
-
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .specials li {
-   margin: 8px 0;
-   font-size: 18px;
-  padding: 10px 20px;
-  background-color: #ffffff;
-  flex: 1;                    
-  max-width: 250px; 
+  background-color: #e7cbcb;
+  padding: 15px 20px;
+  border-radius: 8px;
+  max-width: 260px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.special desc{
+.item-name {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.item-desc {
   font-size: 14px;
-   color: #555;
-   margin-bottom: 8px;
-
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
 }
 
+.item-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+}
 
 .ourstory{
   background-color: rgba(255, 255, 255, 0.6);
