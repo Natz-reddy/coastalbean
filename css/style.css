@@ -298,7 +298,7 @@ object-fit: cover;
   flex: 1;
 }
 
-.special-section {
+/*.special-section {
   display: flex;
   gap: 20px; 
   padding: 40px; 
@@ -320,4 +320,4 @@ object-fit: cover;
   max-width: 100%;
   height: auto;
   border-radius: 8px; 
-}
+}*/
