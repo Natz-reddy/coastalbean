@@ -355,6 +355,28 @@ object-fit: cover;
   font-size: 14px;
   margin: 0;
 }
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.member {
+  text-align: center;
+  max-width: 200px;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
 /*.special-section {
   display: flex;
   gap: 20px; 
