@@ -5,15 +5,26 @@ body {
   background-color: rgb(255, 247, 240);
 }
 
+
 .hero {
   position: relative;
   width: 93%;
   margin: 60px auto 0;
+  
 }
-
 .hero-image {
   width: 100%;          
   max-height: 350px;   
+  display: block;
+  margin-top: 10px;    
+  border-radius: 10px;
+  object-fit: cover;    
+  opacity: 0.9;    
+}
+
+.hero-image1 {
+  width: 100%;          
+  max-height: 600px;   
   display: block;
   margin-top: 10px;    
   border-radius: 10px;
