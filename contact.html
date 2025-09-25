@@ -16,20 +16,33 @@
         <a href="contact.html"> Contact Us</a>
         </div>
       </nav>
-      <div style="text-align: center;margin-top: 20px;">
-        <h1 style="font-size: 60px;"> Contact Us </h1>
-        </div>
-        <h2>Contact Form</h2>
-         <img  src="img/beachcafe.jpg"width="1500"/>
 
-           <h2> 
-        <form><!-- this creates a form , allows users to iput to send a message-->
-            Name: <input type="text" name="name"><br><br><!-- Input box, with text inside-->
-            Email: <input type="email" name="email"><br><br>
-            Message:<br>
-            <textarea name="message" rows="4" cols="30"></textarea><br><br><!--text areas to add message into-->
-            <input type="submit" value="Send">
-        </form>
+      <section class="hero">
+    <img src="img/beachcafe.jpg" class="hero-image">
+    <div class="hero-text-container">
+        <h1 class="hero-text">Contact Us</h1>
+        <p class="hero-description">
+            Have questions or want to book a table? Send us a message and we’ll get back to you!
+        </p>
+    </div>
+</section>
+
+<div class="contact-page">
+    <h2 class="sub-heading">Contact Form</h2>
+    <form class="contact-form">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Your Name"><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Your Email"><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="4" placeholder="Type your message here"></textarea><br>
+
+        <input type="submit" value="Send" class="button1">
+    </form>
+    </div>
+
 
         <h2>Café Location</h2>
         <p><!-- cafe location -->
