@@ -588,7 +588,7 @@ footer {
 .contact-page {
   flex: 1 1 12%; 
   padding: 30px;
-  background-color: rgb(252, 246, 242);
+  background-color: rgb(250, 246, 244);
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
