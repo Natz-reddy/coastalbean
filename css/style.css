@@ -586,12 +586,11 @@ footer {
 /* Contact*/
 
 .contact-page {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: rgb(252, 246, 242);
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  flex: 1 1 12%; 
+  padding: 30px;
+  background-color: rgb(252, 246, 242);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .contact-form label {
@@ -626,6 +625,18 @@ footer {
 .contact-form input[type="submit"]:hover {
     background-color: #551700;
     transform: translateY(-2px);
+}
+
+.contact-container{
+ display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-text {
+  flex: 1 1 70%;
+  padding: 100px;
+
 }
 
 
