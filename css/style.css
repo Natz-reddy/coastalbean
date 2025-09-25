@@ -250,7 +250,8 @@ nav a:hover {
   transform: translateY(-1px);
   box-shadow:0 4px 12px rgba(0,0,0,0.08);
 }
-.info {
+
+/*.info {
   display: flex;
   gap: 20px;       
   align-items: flex-start;
@@ -279,7 +280,47 @@ nav a:hover {
 
 .note-text {
   flex: 1; 
+}*/
+
+.note-open-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
+
+.note-section {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  padding: 22px;
+  background-color: rgb(255, 247, 240);
+
+  border-radius: 10px;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.note-text {
+  flex: 1;
+}
+
+.open-section {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  padding: 22px;
+  background-color: rgb(255, 255, 255);
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.open-text {
+  flex: 1;
+}
+
+
 
 
 footer {
