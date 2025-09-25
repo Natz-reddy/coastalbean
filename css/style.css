@@ -403,6 +403,12 @@ footer {
 
 /* Evetns Page*/
 
+.event-text{
+  font-size: 18px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+
+}
 
 .events {
   display: flex;
@@ -576,4 +582,6 @@ footer {
 .music-text {
   flex: 1;
 }
+
+
 
