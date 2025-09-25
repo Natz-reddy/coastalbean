@@ -542,3 +542,38 @@ footer {
 .events .upcoming li {
     margin-bottom: 12px;
 }*/
+
+
+.music-section-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.music-section {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  padding: 22px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  align-items: flex-start;
+  margin: 0;
+}
+
+.music-image {
+  flex: 1;
+}
+
+.music-image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.music-text {
+  flex: 1;
+}
+
