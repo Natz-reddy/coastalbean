@@ -87,7 +87,7 @@ nav a:hover {
 .section {
   display: flex;              
   gap: 20px;                  
-  background-color: rgb(245, 239, 233);
+  background-color: rgb(252, 246, 242);
   padding: 22px 32px;
   margin: 20px auto;
   max-width: 1200px;         
@@ -107,7 +107,7 @@ nav a:hover {
 }
 
 .specials {
-  background-color: rgb(244, 239, 234);
+  background-color: rgb(252, 246, 242);
   padding: 22px 32px;
   margin: 20px auto;
   max-width: 1200px;
@@ -218,7 +218,7 @@ footer {
   align-items: flex-start; 
   flex-wrap: wrap; 
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  background-color: rgb(250, 246, 242);
+  background-color: rgb(255, 255, 255);
 }
 
 .owner-text {
@@ -246,7 +246,7 @@ footer {
   display: flex;
   gap: 20px;
   padding: 22px;
-  background-color: rgb(248, 245, 241);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   border-radius: 10px;
   align-items: flex-start;
@@ -273,7 +273,7 @@ footer {
   display: flex;
   gap: 20px;
   padding: 22px;
-  background-color: rgb(248, 245, 241);
+  background-color: rgb(255, 255, 255);
   box-shadow:0 4px 12px rgba(0,0,0,0.08);
   border-radius: 10px;
   align-items: flex-start;
@@ -296,7 +296,7 @@ footer {
 }
 
 .wspecials {
-  background-color: rgb(243, 239, 235);
+  background-color: rgb(252, 246, 242);
   padding: 22px 32px;
   margin: 20px auto;
   max-width: 1200px;
@@ -316,7 +316,7 @@ footer {
 }
 
 .wspecials li {
-  background-color: rgb(255, 252, 248);
+  background-color: rgb(255, 255, 255);
   padding: 22px;
   border-radius: 8px;
   max-width: 220px;
