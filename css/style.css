@@ -137,7 +137,7 @@ nav a:hover {
   border-radius: 8px;
   max-width: 260px;
   text-align: left;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .specialsicon {
@@ -188,7 +188,7 @@ nav a:hover {
   border-radius: 30px;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .button1:hover,
@@ -200,7 +200,7 @@ nav a:hover {
 .button1:active,
 .button2:active {
   transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
 }
 
 footer {
@@ -217,7 +217,7 @@ footer {
   padding: 42px; 
   align-items: flex-start; 
   flex-wrap: wrap; 
-  box-shadow: 0 5px 8px rgba(85, 83, 83, 0.644);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   background-color: rgb(250, 246, 242);
 }
 
@@ -247,7 +247,7 @@ footer {
   gap: 20px;
   padding: 22px;
   background-color: rgb(248, 245, 241);
-  box-shadow: 0 5px 8px rgba(85, 83, 83, 0.65);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   border-radius: 10px;
   align-items: flex-start;
   margin: 0;
@@ -274,7 +274,7 @@ footer {
   gap: 20px;
   padding: 22px;
   background-color: rgb(248, 245, 241);
-  box-shadow: 0 5px 8px rgba(85, 83, 83, 0.65);
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
   border-radius: 10px;
   align-items: flex-start;
   margin: 0;
@@ -321,7 +321,7 @@ footer {
   border-radius: 8px;
   max-width: 220px;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -378,7 +378,7 @@ footer {
   padding: 18px;
   border-radius: 10px;
   background: rgb(252, 249, 245);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.2s ease;
   width: 200px;
 }
