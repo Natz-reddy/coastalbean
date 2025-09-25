@@ -400,3 +400,54 @@ footer {
   font-weight: 500;
   color: #333;
 }
+
+/* Evetns Page*/
+.events h1 {
+    color: rgb(54, 13, 2);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.events h2 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: rgb(54, 13, 2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.events h2 img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.events .section {
+    background-color: rgb(252, 246, 242);
+    padding: 22px 32px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 10px;
+}
+
+.events .section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.events p, .events li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.events ol {
+    margin-left: 20px;
+}
+
+.events .upcoming li {
+    margin-bottom: 12px;
+}
