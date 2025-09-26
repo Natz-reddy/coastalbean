@@ -502,6 +502,14 @@ footer {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
+.specials li img {
+  width: 100%;     
+  max-width: 250px;  
+  height: auto;    
+  display: block;
+  margin: 10px auto; 
+  border-radius: 8px;
+}
 
 .wspecials ul {
   list-style: none;
@@ -900,6 +908,261 @@ footer {
 
 }
 
+.info {
+  background-color: rgb(252, 246, 242);
+  padding: 22px 32px;
+  margin: 20px auto;
+  max-width: 1200px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.info h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.info li {
+  background-color: rgb(255, 253, 251);
+  padding: 18px 22px;
+  border-radius: 8px;
+  max-width: 260px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.info li img {
+  width: 40px;
+  max-width: 50px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.info .item-name {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.info .item-desc {
+  font-size: 14px;
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.info .item-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #168d7d;
+  display: block;
+}
 
 
+
+/*responsive design,mobile*/
+body { font-size: 1rem; }
+
+
+@media (min-width: 768px) {
+  body { font-size: 1.1rem; }
+  .hero-text { font-size: 60px; }
+  .welcome ul { justify-content: flex-start; }
+}
+
+
+@media (min-width: 1024px) {
+  body { font-size: 1.2rem; }
+  .hero-text { font-size: 80px; }
+  main { flex-direction: row; gap: 40px; }
+}
+
+@media (max-width: 767px) {
+  .hero-text {
+    font-size: 32px; 
+    top: 40%;          
+  }
+}
+
+/*@media (max-width: 767px) {
+  .section,
+  .note-open-container,
+  .owner-section,
+  .mission-vision-container,
+  .music-section-container,
+  .menu-section,
+  .meal-section,
+  .eventmenu-section,
+  .events {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+}*/
+.nav-toggle {
+  display: none;
+}
+
+/* Hamburger icon hidden on desktop */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  nav {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.8);
+  }
+
+  /* Show nav-links when checkbox is checked */
+  .nav-toggle:checked + .hamburger + .nav-links {
+    display: flex;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .specials li {
+    max-width: 100%; 
+  }
+
+  .specials li img {
+    width: 100%;    
+    height: auto;     
+    display: block;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .section, 
+  .note-open-container, 
+  .owner-section, 
+  .mission-vision-container, 
+  .music-section-container, 
+  .menu-section, 
+  .meal-section, 
+  .eventmenu-section, 
+  .events {
+    flex-wrap: wrap;
+  }
+
+  .section2, 
+  .section3, 
+  .note-section, 
+  .open-section, 
+  .mission-section, 
+  .vision-section, 
+  .music-section, 
+  .owner-text, 
+  .owner-image, 
+  .eventfunction-text, 
+  .eventfunction-image {
+    flex: 1 1 100%;
+    margin-bottom: 15px;
+  }
+
+  .welcome li, 
+  .wspecials li, 
+  .specials li, 
+  .menu-item, 
+  .meal-item, 
+  .event-item, 
+  .mealevent-item {
+    max-width: 100%;
+  }
+
+  .contact-text {
+    padding: 30px 20px; 
+    flex: 1 1 100%;
+  }
+
+  .info li {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text {
+    font-size: 28px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  nav .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 5px 0;
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .welcome ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .wspecials li, 
+  .specials li, 
+  .menu-item, 
+  .meal-item, 
+  .event-item {
+    padding: 15px;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+  }
+}
+
+
+/*img {
+  max-width: 100%;
+  height: auto;
+}*/
 
