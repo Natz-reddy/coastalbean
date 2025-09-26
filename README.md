@@ -45,6 +45,52 @@ Commits made reurlary
       |--- Menu (menu.html) - drinks, food , images , prices
       |--- Events - specials, functions, live bands
       |--- Contact Us - contact form, location, social media 
+
+
+
+# Part 2 Details
+
+# Styling
+I worked more on the design side of the website.
+Added a consistent navigation bar across all pages.
+Applied CSS for layout, spacing, fonts, and colors to create a clean, modern look.
+Implemented a hero image on the home page with a welcome message and slogan.
+Styled the menu page with images, item names, and prices displayed neatly.
+
+# Improved Navigation
+Ensured links are horizontally aligned and easy to access.
+Navigation stays visible at the top for user-friendly browsing
+
+# Content and Structure
+Organized content on each page with proper headings and sections.
+Added placeholders for upcoming features like newsletters and social media integration.
+
+# Testing and Validation
+Verified that all navigation links work correctly.
+Inspected and adjusted the design to work on different screen sizes (basic resizing checks).
+Fixed layout issues with stacking links by applying CSS flexbox.
+
+# Now the site looks more polished and matches the goals of showing off the cafe, menu, events and contact info.
+
+# Desktop View
+![alt text](<Screenshot 2025-09-26 143540-1.png>) 
+![alt text](<Screenshot 2025-09-26 143554.png>) 
+![alt text](<Screenshot 2025-09-26 143610.png>) 
+![alt text](<Screenshot 2025-09-26 143622.png>) 
+![alt text](<Screenshot 2025-09-26 143632.png>)
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 # References 
 https://www.w3schools.com/html/
