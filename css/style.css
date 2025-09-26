@@ -241,7 +241,7 @@ nav a:hover {
 
 .button1:hover,
 .button2:hover {
-  background-color: #551700d8;
+  background-color:  #5e2500;
   transform: translateY(-3px);
 }
 
@@ -286,9 +286,12 @@ nav a:hover {
 }
 
 
-.indexbutton1:hover,
-.indexbutton2:hover {
+.indexbutton1:hover {
   background-color: #be7200;
+  transform: translateY(-3px);
+}
+.indexbutton2:hover {
+  background-color: #ffffff;
   transform: translateY(-3px);
 }
 
