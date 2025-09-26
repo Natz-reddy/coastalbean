@@ -660,8 +660,8 @@ footer {
 
 .event-item {
   text-align: center;
-  width: 300px;              
-  padding: 5px;            
+  width: 300px;          
+  padding: 15px;                  
   background: rgb(252, 249, 245);
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
@@ -676,10 +676,11 @@ footer {
   transition: transform 0.2s ease;
   width: 200px;
 }
-.season-icon {
-  width: 30px;  
-  height: auto; 
-  margin-bottom: 8px;
+.event-item img.season-icon {
+  width: 40px;     
+  height: auto;   
+  margin-bottom: 10px;
+  padding: 0;        
 }
 
 .event-item:hover {
