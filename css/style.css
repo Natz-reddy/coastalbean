@@ -405,7 +405,7 @@ nav a:hover {
 
 
 footer {
-  background-color: #551700d8;
+  background-color: #3f1a01;
   color: white;
   text-align: center;
   padding: 30px; 
@@ -1004,4 +1004,54 @@ footer {
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .section, .note-open-container, .owner-section, .mission-vision-container, .music-section-container {
+    flex-direction: column; 
+    gap: 15px; 
+  }
+
+  .hero-text {
+    font-size: 3rem; 
+  }
+
+  nav .nav-links {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav .nav-links a {
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 0.9rem; 
+  }
+
+  .hero-text {
+    font-size: 2.2rem; 
+    top: 25%;
+  }
+
+  .section2, .section3, .note-section, .open-section, .mission-section, .vision-section, .owner-text, .owner-image, .music-text, .music-image {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .welcome li, .specials li, .wspecials li, .menu-item, .meal-item, .event-item {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .indexbutton-container, .button-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    padding: 8px 10px;
+  }
+}
 
