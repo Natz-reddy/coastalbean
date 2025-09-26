@@ -11,6 +11,18 @@ body {
   background-color: rgb(255, 247, 240);
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.brand .logo {
+  height: 40px; 
+  width: auto;   
+  border-radius: 6px; 
+}
+
 .hero {
   position: relative;
   width: 93%;
