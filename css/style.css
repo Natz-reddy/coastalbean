@@ -113,7 +113,7 @@ nav a {
 
 nav a:hover {
   border: 2px solid rgba(255, 255, 255, 0.6);
-  background-color: rgba(29, 121, 121, 0.26);
+  background-color: rgba(148, 96, 0, 0.26);
 }
 
 .section {
@@ -1014,51 +1014,30 @@ body { font-size: 1rem; }
     padding: 15px;
   }
 }*/
-.nav-toggle {
-  display: none;
-}
+
 
 /* Hamburger icon hidden on desktop */
+@media(max-width: 768px){
+  .nav-links{
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  .nav-links.show{
+    display: flex;
+
+}
 .hamburger {
   display: none;
   font-size: 28px;
   cursor: pointer;
 }
-
-/* Mobile responsiveness */
-@media (max-width: 767px) {
-  nav {
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .hamburger {
-    display: block;
-    margin-left: auto;
-  }
-
-  .nav-links {
-    display: none;
-    width: 100%;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-
-  .nav-links a {
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    background-color: rgba(255,255,255,0.8);
-  }
-
-  /* Show nav-links when checkbox is checked */
-  .nav-toggle:checked + .hamburger + .nav-links {
-    display: flex;
-  }
 }
-
 
 @media (max-width: 767px) {
   .specials li {
@@ -1129,16 +1108,6 @@ body { font-size: 1rem; }
     transform: translate(-50%, -50%);
   }
 
-  nav .nav-links {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  nav a {
-    margin: 5px 0;
-    font-size: 14px;
-    padding: 6px 10px;
-  }
 
   .welcome ul {
     flex-direction: column;
