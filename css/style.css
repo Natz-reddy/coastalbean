@@ -80,23 +80,25 @@ nav .brand {
 
 nav .nav-links {
   display: flex;
+ flex-direction: row;
   align-items: center;
+  gap: 20px;             
 }
 
-nav a {
+nav .nav-links a {
   color: #000000;
   text-decoration: none;
-  margin: 0 15px;
   font-weight: bold;
-  padding: 4px 6px;
+  padding: 6px 10px;
   border: 1px solid transparent;
   border-radius: 9px;
   transition: 0.3s ease;
 }
 
-nav a:hover {
+
+nav .nav-links a:hover {
   border: 2px solid rgba(255, 255, 255, 0.6);
-  background-color: rgba(29, 121, 121, 0.26);
+  background-color: rgba(129, 76, 6, 0.26);
 }
 
 .hamburger {
@@ -961,93 +963,3 @@ footer {
   color: #168d7d;
   display: block;
 }
-
-@media(max-width:768px){
-  .nav-links{
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color:white;
-    position: absolute;
-    top: 100%;
-    left: 0;
-
-  }
-
-.nav-links.show{
-  display: flex;
-}
-.hamburger{
-  display: block;
-}
-
-
-}
-
-
-
-
-
-
-
-@media (max-width: 768px) {
-  .hero-text {
-    font-size: 40px;
-  }
-  .hero-image1, .hero-image {
-    max-height: 300px;
-  }
-}
-
-
-@media screen and (max-width: 1023px) {
-  .section, .note-open-container, .owner-section, .mission-vision-container, .music-section-container {
-    flex-direction: column; 
-    gap: 15px; 
-  }
-
-  .hero-text {
-    font-size: 3rem; 
-  }
-
-  nav .nav-links {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  nav .nav-links a {
-    margin: 5px 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  body {
-    font-size: 0.9rem; 
-  }
-
-  .hero-text {
-    font-size: 2.2rem; 
-    top: 25%;
-  }
-
-  .section2, .section3, .note-section, .open-section, .mission-section, .vision-section, .owner-text, .owner-image, .music-text, .music-image {
-    width: 100%;
-    padding: 15px;
-  }
-
-  .welcome li, .specials li, .wspecials li, .menu-item, .meal-item, .event-item {
-    width: 90%;
-    margin: 10px auto;
-  }
-
-  .indexbutton-container, .button-container {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  nav {
-    flex-direction: column;
-    padding: 8px 10px;
-  }
-}
-
