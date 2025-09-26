@@ -676,6 +676,11 @@ footer {
   transition: transform 0.2s ease;
   width: 200px;
 }
+.season-icon {
+  width: 30px;  
+  height: auto; 
+  margin-bottom: 8px;
+}
 
 .event-item:hover {
   transform: translateY(-5px);
