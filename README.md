@@ -79,6 +79,21 @@ Fixed layout issues with stacking links by applying CSS flexbox.
 ![alt text](<Screenshot 2025-09-26 143622.png>) 
 ![alt text](<Screenshot 2025-09-26 143632.png>)
 
+# Iphone 12 Pro View
+![alt text](<Screenshot 2025-09-26 151207.png>)
+ ![alt text](<Screenshot 2025-09-26 151124.png>) 
+ ![alt text](<Screenshot 2025-09-26 151138.png>) 
+ ![alt text](<Screenshot 2025-09-26 151147.png>)
+  ![alt text](<Screenshot 2025-09-26 151155.png>)
+
+  # Ipad
+  ![alt text](<Screenshot 2025-09-26 151317.png>)
+   ![alt text](<Screenshot 2025-09-26 151223.png>) 
+ ![alt text](<Screenshot 2025-09-26 151245.png>) 
+ ![alt text](<Screenshot 2025-09-26 151254.png>)
+  ![alt text](<Screenshot 2025-09-26 151305.png>)
+
+
 
 
 

@@ -975,3 +975,58 @@ footer {
   color: #168d7d;
   display: block;
 }
+@media (max-width: 480px) {
+  .hero-text {
+    font-size: 40px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 55px;
+  }
+  nav a {
+    margin: 5px 0;
+  }
+  .section {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-text {
+    font-size: 65px;
+  }
+  nav {
+    justify-content: space-around;
+  }
+  .section {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-text {
+    font-size: 75px;
+  }
+  .section {
+    padding: 15px 20px;
+  }
+}
+
+@media (min-width: 1201px) {
+  .hero-text {
+    font-size: 80px;
+  }
+  .section {
+    gap: 20px;
+    padding: 22px 32px;
+  }
+}
+
