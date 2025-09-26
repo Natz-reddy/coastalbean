@@ -93,6 +93,8 @@ Fixed layout issues with stacking links by applying CSS flexbox.
  ![alt text](<Screenshot 2025-09-26 151254.png>)
   ![alt text](<Screenshot 2025-09-26 151305.png>)
 
+  https://natz-reddy.github.io/coastalbean/
+
 
 
 
