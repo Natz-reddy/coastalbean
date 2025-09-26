@@ -91,7 +91,7 @@ nav {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Brand */
+
 nav .brand {
   color: rgb(54, 13, 2);
   font-size: 28px;
@@ -99,11 +99,12 @@ nav .brand {
   margin: 0;
 }
 
-/* Links */
+
 nav .nav-links {
   display: flex;
   align-items: center;
 }
+
 
 nav a {
   color: #000000;
@@ -116,7 +117,7 @@ nav a {
   transition: 0.3s ease;
 }
 
-/* Hover effect */
+
 nav a:hover {
   border: 2px solid rgba(255, 255, 255, 0.6);
   background-color: rgba(148, 96, 0, 0.26);
@@ -978,6 +979,16 @@ footer {
   display: block;
 }
 
+
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 40px;
+  }
+  .hero-image1, .hero-image {
+    max-height: 300px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -992,4 +1003,5 @@ footer {
     margin: 5px 0;
   }
 }
+
 
