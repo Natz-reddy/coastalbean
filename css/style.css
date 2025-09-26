@@ -580,6 +580,18 @@ footer {
 
 /* Evetns Page*/
 
+.eventmenu-section {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px;                     
+  flex-wrap: wrap;
+  margin: 30px auto;
+  max-width: 1000px;              
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+
 .event-text{
   font-size: 18px;
   margin-top: 10px;
@@ -593,7 +605,7 @@ footer {
   gap: 40px;
   margin: 40px auto;
   max-width: 1200px;
-  padding: 0 20px;
+  padding: 0 0;
 }
 
 .events h2 {
@@ -612,12 +624,12 @@ footer {
 
 .event-item {
   text-align: center;
-  padding: 18px;
-  border-radius: 10px;
+  width: 250px;              
+  padding: 20px;            
   background: rgb(252, 249, 245);
+  border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.2s ease;
-  width: 250px;
 }
 
 .event-item:hover {
