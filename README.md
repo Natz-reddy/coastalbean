@@ -94,19 +94,6 @@ Fixed layout issues with stacking links by applying CSS flexbox.
   ![alt text](<Screenshot 2025-09-26 151305.png>)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     
 # References 
 https://www.w3schools.com/html/
@@ -116,3 +103,8 @@ https://mailchimp.com/resources/web-design/?gclsrc=aw.ds&gad_source=1&gad_campai
 https://www.newperspectivestudio.co.za/wp/what-is-the-cost-of-creating-a-website-in-south-africa/
 https://seeresponse.com/blog/top-reasons-business-needs-website/
 https://www.forbes.com/councils/theyec/2020/02/03/why-every-business-needs-a-website/ 
+# new Refereneces 
+https://www.w3schools.com/css/css3_mediaqueries.asp
+https://www.bing.com/ck/a?!&&p=40ad412dfe26c8b3ce66fc2d16ebcfb0f159b74fc05581c654cfa2d048ba1faaJmltdHM9MTc1ODg0NDgwMA&ptn=3&ver=2&hsh=4&fclid=0e00c478-e1f7-6605-0355-d212e5f76884&psq=ux+and+ui+design&u=a1aHR0cHM6Ly93d3cuZmlnbWEuY29tL3Jlc291cmNlLWxpYnJhcnkvZGlmZmVyZW5jZS1iZXR3ZWVuLXVpLWFuZC11eC8
+https://www.w3schools.com/html/html_css.asp
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
