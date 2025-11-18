@@ -37,6 +37,12 @@ document.addEventListener("DOMContentLoaded", function () {
       member.style.transition = "transform 0.3s";
       member.style.boxShadow = "0 4px 15px rgba(0,0,0,0.2)";
     });
+    member.addEventListener("mouseout", () => {
+      member.style.transform = "scale(1)";
+      member.style.boxShadow = "none";
+    });
+  });
+});
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
