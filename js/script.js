@@ -18,6 +18,17 @@ document.addEventListener("DOMContentLoaded", function () {
       btn.style.transform = "scale(1)";
     });
   });
+});
+//about us
+document.addEventListener("DOMContentLoaded", function () {
+ 
+  const heroImage = document.querySelector(".hero-image");
+  heroImage.style.opacity = 0;
+  setTimeout(() => {
+    heroImage.style.transition = "opacity 2s";
+    heroImage.style.opacity = 1;
+  }, 100);
+
 
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
