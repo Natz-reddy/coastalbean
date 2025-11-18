@@ -29,9 +29,3 @@ document.addEventListener("DOMContentLoaded", function () {
   }, { threshold: 0.1 });
 document.addEventListener("DOMContentLoaded", function () {
  
-  const heroImage = document.querySelector(".hero-image");
-  heroImage.style.opacity = 0;
-  setTimeout(() => {
-    heroImage.style.transition = "opacity 2s";
-    heroImage.style.opacity = 1;
-  }, 100);
