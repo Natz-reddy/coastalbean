@@ -19,6 +19,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
+  const specials = document.querySelectorAll(".specials li");
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = 1;
+        entry.target.style.transform = "translateY(0)";
+      }
+    });
+  }, { threshold: 0.1 });
 document.addEventListener("DOMContentLoaded", function () {
  
   const heroImage = document.querySelector(".hero-image");
