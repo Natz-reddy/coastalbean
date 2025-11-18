@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  const specials = document.querySelectorAll(".specials li");
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
