@@ -30,6 +30,13 @@ document.addEventListener("DOMContentLoaded", function () {
   }, 100);
 
 
+  const teamMembers = document.querySelectorAll(".team .member");
+  teamMembers.forEach(member => {
+    member.addEventListener("mouseover", () => {
+      member.style.transform = "scale(1.05)";
+      member.style.transition = "transform 0.3s";
+      member.style.boxShadow = "0 4px 15px rgba(0,0,0,0.2)";
+    });
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
