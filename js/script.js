@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
    
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+    emailjs.send("service_mfb3xtw", "template_ykfz8lp", {
       from_name: name,
       from_email: email,
       phone: phone,
