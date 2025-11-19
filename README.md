@@ -121,3 +121,6 @@ https://www.w3schools.com/html/html_css.asp
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
 
 # new Refereneces - Part 3
+https://www.emailjs.com/docs/tutorial/overview/
+https://www.bing.com/ck/a?!&&p=f366dd2817f937a8169b6fb7e084b8fc5cf325ddada3171b0069265f3031f166JmltdHM9MTc2MzU3NDgxOA&ptn=3&fclid=ad06bc03-c570-11f0-b7ce-a2dfb8c7f4a8&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1FZXJkR20tZWhKUSZudGI9MSZtc29ja2lkPWFkMDZiYzAzYzU3MDExZjBiN2NlYTJkZmI4YzdmNGE4
+https://www.geeksforgeeks.org/javascript/javascript-basics/
