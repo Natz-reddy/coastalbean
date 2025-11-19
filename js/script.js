@@ -101,3 +101,11 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
  
+    if (errors.length > 0) {
+      alert(errors.join("\n"));
+    } else {
+      alert("Thank you! Your message has been sent successfully.");
+      form.reset();
+    }
+  });
+});
