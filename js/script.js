@@ -76,4 +76,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const phone = form.phone.value.trim();
     const message = form.message.value.trim();
 
+    let errors = [];
+
+  
+    if (name.length < 3) {
+      errors.push("Name must be at least 3 characters.");
+    }
  
