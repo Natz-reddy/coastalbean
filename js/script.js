@@ -107,9 +107,13 @@ document.addEventListener("DOMContentLoaded", function () {
       phone: phone,
       message: message
     })
+    .then(function(response) {
       alert("Thank you! Your message has been sent successfully.");
       form.reset();
-    }
+    }, function(error) {
+      alert("Oops! Something went wrong. Please try again.");
+      console.error("EmailJS error:", error);
+    });
   });
 });
 //search
