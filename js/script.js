@@ -88,4 +88,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!emailPattern.test(email)) {
       errors.push("Please enter a valid email address.");
     }
+
+   
+    const phonePattern = /^(\+27|0)[6-8][0-9]{8}$/;
+    if (phone && !phonePattern.test(phone)) {
+      errors.push("Enter a valid South African phone number.");
+    }
  
