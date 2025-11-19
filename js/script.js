@@ -55,5 +55,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   }, { threshold: 0.1 });
+
+  sections.forEach(sec => {
+    sec.style.opacity = 0;
+    sec.style.transform = "translateY(50px)";
+    sec.style.transition = "all 0.8s ease-out";
+    observer.observe(sec);
+  });
+});
 document.addEventListener("DOMContentLoaded", function () {
  
