@@ -43,6 +43,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+//events
+document.addEventListener("DOMContentLoaded", function () {
+ 
+  const sections = document.querySelectorAll(".meal-section, .eventfunction, .menu-section, .music-section-container");
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
