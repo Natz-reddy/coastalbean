@@ -109,3 +109,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+//search
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("searchInput");
+  const searchButton = document.getElementById("searchButton");
+  const menuItems = document.querySelectorAll(".menu-item");
