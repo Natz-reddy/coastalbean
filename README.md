@@ -93,8 +93,19 @@ Fixed layout issues with stacking links by applying CSS flexbox.
  ![alt text](<Screenshot 2025-09-26 151254.png>)
   ![alt text](<Screenshot 2025-09-26 151305.png>)
 
+# Part 3 
+includes 
+The JavaScript handles menu filtering, user input validation, smooth animations, and form submission.   . 
+# Javascript
+In this part 3 i added new features into the website , such as interactive menu features, a working search bar and a contact form that connects to EmailJS.
+# Menu
+The menu can be searched by name and items are shown or hidden based on what the user types
+# Contact
+the contact form checks that the name, email, phone number and message are valid before sending
+EmailJS is used to send the form data directly to email through a service and template set up in the dashboard
+# UI
+The site also includes hover animations for team members and minor UI improvements to make the site feel smoother and more modern
 
-    
 # References 
 https://www.w3schools.com/html/
 https://www.bing.com/ck/a?!&&p=f6673b97870e18d06d0f906ac5a2c2d25623a665ca4353ebe9ae5a094e853e74JmltdHM9MTc1NjE2NjQwMA&ptn=3&ver=2&hsh=4&fclid=24e1a738-c6cf-66b3-194a-b2b4c7066755&u=a1aHR0cHM6Ly93d3cucXVpY2tzcHJvdXQuY29tL2NyZWF0aW5nLXdlYnNpdGUtc2l0ZW1hcC8&ntb=1
@@ -103,8 +114,10 @@ https://mailchimp.com/resources/web-design/?gclsrc=aw.ds&gad_source=1&gad_campai
 https://www.newperspectivestudio.co.za/wp/what-is-the-cost-of-creating-a-website-in-south-africa/
 https://seeresponse.com/blog/top-reasons-business-needs-website/
 https://www.forbes.com/councils/theyec/2020/02/03/why-every-business-needs-a-website/ 
-# new Refereneces 
+# new Refereneces - Part 2
 https://www.w3schools.com/css/css3_mediaqueries.asp
 https://www.bing.com/ck/a?!&&p=40ad412dfe26c8b3ce66fc2d16ebcfb0f159b74fc05581c654cfa2d048ba1faaJmltdHM9MTc1ODg0NDgwMA&ptn=3&ver=2&hsh=4&fclid=0e00c478-e1f7-6605-0355-d212e5f76884&psq=ux+and+ui+design&u=a1aHR0cHM6Ly93d3cuZmlnbWEuY29tL3Jlc291cmNlLWxpYnJhcnkvZGlmZmVyZW5jZS1iZXR3ZWVuLXVpLWFuZC11eC8
 https://www.w3schools.com/html/html_css.asp
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Getting_started
+
+# new Refereneces - Part 3
