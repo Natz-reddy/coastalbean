@@ -975,6 +975,26 @@ footer {
   color: #168d7d;
   display: block;
 }
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#searchInput {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+#searchButton {
+  padding: 5px 10px;
+  background-color: #3f1a01;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 @media (max-width: 480px) {
   .hero-text {
     font-size: 40px;
