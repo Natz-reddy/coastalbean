@@ -127,3 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+  searchInput.addEventListener("input", filterMenu);
+});
+const searchButton = document.getElementById("searchButton");
+searchButton.addEventListener("click", filterMenu);
