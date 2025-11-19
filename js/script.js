@@ -117,3 +117,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   searchButton.addEventListener("click", function () {
     const query = searchInput.value.toLowerCase().trim();
+
+    menuItems.forEach((item) => {
+      const name = item.querySelector("p").textContent.toLowerCase();
+      if (name.includes(query)) {
+        item.style.display = "block";
+      } else {
+        item.style.display = "none";
+      }
+    });
+  });
