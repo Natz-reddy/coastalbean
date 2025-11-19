@@ -114,3 +114,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const searchInput = document.getElementById("searchInput");
   const searchButton = document.getElementById("searchButton");
   const menuItems = document.querySelectorAll(".menu-item");
+
+  searchButton.addEventListener("click", function () {
+    const query = searchInput.value.toLowerCase().trim();
