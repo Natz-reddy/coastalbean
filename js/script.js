@@ -82,4 +82,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (name.length < 3) {
       errors.push("Name must be at least 3 characters.");
     }
+
+
+    const emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+    if (!emailPattern.test(email)) {
+      errors.push("Please enter a valid email address.");
+    }
  
