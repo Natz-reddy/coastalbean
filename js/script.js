@@ -94,4 +94,10 @@ document.addEventListener("DOMContentLoaded", function () {
     if (phone && !phonePattern.test(phone)) {
       errors.push("Enter a valid South African phone number.");
     }
+
+    
+    if (message.length < 10) {
+      errors.push("Message must be at least 10 characters.");
+    }
+
  
