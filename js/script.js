@@ -70,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-
     const name = form.name.value.trim();
     const email = form.email.value.trim();
     const phone = form.phone.value.trim();
@@ -78,32 +77,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let errors = [];
 
-  
     if (name.length < 3) {
       errors.push("Name must be at least 3 characters.");
     }
-
 
     const emailPattern = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
     if (!emailPattern.test(email)) {
       errors.push("Please enter a valid email address.");
     }
 
-   
     const phonePattern = /^(\+27|0)[6-8][0-9]{8}$/;
     if (phone && !phonePattern.test(phone)) {
       errors.push("Enter a valid South African phone number.");
     }
 
-    
     if (message.length < 10) {
       errors.push("Message must be at least 10 characters.");
     }
 
- 
     if (errors.length > 0) {
       alert(errors.join("\n"));
-    } else {
+      return;
+    }
+
+   
+    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+      from_name: name,
+      from_email: email,
+      phone: phone,
+      message: message
+    })
       alert("Thank you! Your message has been sent successfully.");
       form.reset();
     }
